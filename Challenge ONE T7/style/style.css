@@ -1,0 +1,103 @@
+.body{
+    background-color: #E5E5E5;
+    font-size: 20px;
+       
+}
+.alerta__desenvolvimento{
+    background-color: #ffcc00;  
+    color: #000;  
+    font-size: 24px;
+    padding: 10px;  
+    text-align: center;  
+    position: relative;  
+    z-index: 9999; 
+}
+
+.imagem__logo{
+    position: absolute; 
+	left: 40px;  
+	top: 40px; 
+  
+}
+
+.imagem__digite__texto{
+    position: absolute; 
+	left: 150px;  
+	top: 150px; 
+    
+    }
+.imagem__figura{
+    position: relative;
+    top: 150px;
+    right: -900px;
+}
+
+#box{
+    height: 700px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    position: absolute;
+    left: 66%;
+    top: 20px;
+    z-index: -3;
+}
+
+.botao__criptografar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 67px;
+    width: 332px;
+    border-radius: 24px;
+    border-color: white;
+    font-size: 16px;
+    color: white;
+    padding: 0%;
+    position: absolute;
+    left: 150px;
+    top: 550px;
+    background-color: #0A3871;
+}
+.botao__descriptografar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 67px;
+    width: 332px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    font-size: 16px;
+    color: #0A3871;
+    padding: 0px;
+    position: absolute;
+    left: 500px;
+    top: 550px;
+}
+.botao__iniciar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 67px;
+    width: 332px;
+    border-radius: 24px;
+    border-color:#0A3871
+    font-size: 16px;
+    color: #0A3871;
+    padding: 0px;
+    position: absolute;
+    left: 900px;
+    top: 550px;
+  }
+.rodape{
+    text-align: center;
+    top: 200px;
+    position: relative;
+    color: black;
+    background-color: #0A3871;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 24px;
+    
+
+}
